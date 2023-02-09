@@ -1,16 +1,22 @@
 // JavaScript source code
 
 let target = document.querySelector("#dynamic");
-let stringArr = ["Learn to HTML", "Learn to CSS", "Learn to Javascript",
-    "Learn to Python", "Learn to Ruby"];
+let stringArr = ["Destroyer", "Warlord", "Berserker", "Holyknight",
+    "Slayer", "Striker", "Battle Master", "Infighter", "Soul Master", "Lance Master",
+    "Devil Hunter", "Blaster", "Hawk Eye", "Scouter", "Gunslinger", "Bard",
+    "Summoner", "Arcana", "Sorceress", "Blade", "Demonic", "Reaper", "Artist",
+"AeroMancer"];
 let selectString = stringArr[Math.floor(Math.random() * stringArr.length)];
 let selectStringArr = selectString.split("");
 
 
 function randomString() {
     let target = document.querySelector("#dynamic");
-    let stringArr = ["Learn to HTML", "Learn to CSS", "Learn to Javascript",
-        "Learn to Python", "Learn to Ruby"];
+    let stringArr = ["Destroyer", "Warlord", "Berserker", "Holyknight",
+        "Slayer", "Striker", "Battle Master", "Infighter", "Soul Master", "Lance Master",
+        "Devil Hunter", "Blaster", "Hawk Eye", "Scouter", "Gunslinger", "Bard",
+        "Summoner", "Arcana", "Sorceress", "Blade", "Demonic", "Reaper", "Artist",
+        "AeroMancer"];
     let selectString = stringArr[Math.floor(Math.random() * stringArr.length)];
     let selectStringArr = selectString.split("");
 
